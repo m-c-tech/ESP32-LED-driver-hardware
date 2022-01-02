@@ -21,8 +21,8 @@ Dimensions - (L) 56.6mm * (W) 56.6mm * (D) 26mm
 The enclosure needs a M3 heated nut-sert to be put in the lid and a countersunk M3 machine screw.  
 
 Power:  
-Input voltage can be 5V to 12V up to 5A current.  
-Input connector is a 2.1mm ID, 5.5mm OD, 9.5mm depth barrel jack plug.  
+Input power can be 5V to 12V up to 5A current.  
+Input connector is a 2.1mm ID, 5.5mm OD, 9.5mm long barrel jack plug.  
 
 Pinout used for common anode RGBW 5/12V LEDs:  
 VDD  - Power +ve  
@@ -30,6 +30,7 @@ IO19 - White
 IO18 - Red  
 IO17 - Green  
 IO16 - Blue  
+GND	 - GND  
 
 Hardware changes for driving addressable LEDs:  
 Remove 0R resistors from R1-R4.  
@@ -41,14 +42,16 @@ VDD  - Power +ve (ensure your power supply is correct for your LED voltage)
 IO19 - LED data 1  
 IO18 - LED data 2  
 IO17 - LED data 3  
-IO16 - Ground  
+IO16 - LED data 3  
+GND	 - GND  
 
 Pinout used for 1 string of SPI addressable LEDs:  
 VDD  - Power +ve (ensure your power supply is correct for your LED voltage)  
-IO19 - LED data  
-IO18 - LED clock  
-IO17 - Unused  
-IO16 - Ground  
+IO19 - LED data 0  
+IO18 - LED clock 0  
+IO17 - LED data 0  
+IO16 - LED clock 0  
+GND	 - GND  
 
 ![PCB0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/PCB0.jpg)
 ![Enclosure0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/Enclosure0.PNG)
