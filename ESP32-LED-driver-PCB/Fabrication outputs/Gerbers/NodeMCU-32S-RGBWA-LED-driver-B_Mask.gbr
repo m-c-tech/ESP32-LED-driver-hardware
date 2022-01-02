@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-01-02T08:39:00+08:00*%
+%TF.CreationDate,2022-01-02T10:57:20+08:00*%
 %TF.ProjectId,NodeMCU-32S-RGBWA-LED-driver,4e6f6465-4d43-4552-9d33-32532d524742,1*%
 %TF.SameCoordinates,PX68d6610PY3c42a2c*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-01-02 08:39:00*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-01-02 10:57:20*
 %MOMM*%
 %LPD*%
 G01*

@@ -7,24 +7,25 @@ Price is an important factor as well as ease of use and flexibility in its appli
 This gives great flexibility with over-the-air updates and easy to understand setup.  
 The ESP32 microcontroller is highly flexible with WiFi and bluetooth along with many GPIOs, ADCs, touch sensors, etc.  
 Development boards for the ESP32 can be gotten for very cheap from various online sellers, pay close attention to the dev board pinouts as they can vary.  
-The PCB design incorporates multiple resistor configurations to allow for differing types of LEDs to be driven.  
+This PCB design incorporates multiple resistor configurations to allow for differing types of LEDs to be driven, common anode, SPI, one wire.
 
 
 PCB design done in KICAD 6.0  
 Mechanical enclosure design done in Autodesk Fusion 360.  
-The bill of materials comes to roughly 20.70AUD per unit at quantaties of 20, this includes the ESP32 dev board ($6.75), components from digi-key ($7.80), PCBs from fab house ($2.27), 3D printer plastic ($1.60), plus a few other items.  
+The bill of materials comes to roughly 20.70AUD per unit at quantaties of 20.  
+This includes the ESP32 dev board ($6.75), components from digi-key ($7.80), PCBs from fab house ($2.27), 3D printer plastic ($1.60), plus a few other items.  
 
 Enclosure:  
 Designed for 3D printing.  
 Dimensions - (L) 56.6mm * (W) 56.6mm * (D) 26mm  
-The enclosure needs a M3 heated nut-sert to be put in the lid and a countersunk M3 machine screw.
+The enclosure needs a M3 heated nut-sert to be put in the lid and a countersunk M3 machine screw.  
 
 Power:  
 Input voltage can be 5V to 12V up to 5A current.  
-Input connector is a 2.1mm ID, 5.5mm OD, 9.5mm depth barrel jack plug.
+Input connector is a 2.1mm ID, 5.5mm OD, 9.5mm depth barrel jack plug.  
 
 Pinout used for common anode RGBW 5/12V LEDs:  
-VDD  - Power +ve
+VDD  - Power +ve  
 IO19 - White  
 IO18 - Red  
 IO17 - Green  

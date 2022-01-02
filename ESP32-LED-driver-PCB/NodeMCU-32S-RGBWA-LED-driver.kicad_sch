@@ -1506,7 +1506,7 @@
     (uuid feb4958d-9bd2-4efe-855b-3cbe718ccd28)
   )
 
-  (text "For driving addressable LEDs:\nRemove resistors from R1-R4 and place them on R5-R7\nBridge JP1-JP3"
+  (text "For driving addressable LEDs:\nRemove 0R resistors from R1-R4\nPlace 0R resistors on R5-R7\nBridge JP1-JP3"
     (at 137.16 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e9b420c-dffe-4c0b-b833-dd389bec0c0d)
