@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R6,R7,R5";"R_0805_2012Metric";3;"0805 DNF";;;
+2;"R11,R8,R9,R10";"R_0805_2012Metric";4;"10k 0805";;;
+3;"JP3,JP2,JP1";"SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm";3;"SolderJumper_2_Open";;;
+4;"R2,R4,R3,R1";"R_0805_2012Metric";4;"0R 0805";;;
+5;"REF**";"MountingHole_3.2mm_M3";1;"MountingHole_3.2mm_M3";;;
+6;"U2";"SOT-223-3_TabPin2";1;"NCP1117-3.3_SOT223";;;
+7;"Q1,Q2,Q4,Q3";"AO6404";4;"AO6404";;;
+8;"U1";"NodeMCU-32S";1;"NodeMCU-32S";;;
+9;"C2";"C_0603_1608Metric";1;"10uF 6.3V";;;
+10;"C1";"C_0805_2012Metric";1;"10uF 25V";;;
+11;"J2";"CUI_TBP02R1-381-05BE";1;"TBP02R1-381-05BE";;;
+12;"J1";"CUI_PJ-037A";1;"PJ-037AH";;;
