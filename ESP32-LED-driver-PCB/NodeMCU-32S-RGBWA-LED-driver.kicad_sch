@@ -1506,12 +1506,12 @@
     (uuid feb4958d-9bd2-4efe-855b-3cbe718ccd28)
   )
 
-  (text "For driving addressable LEDs:\nRemove resistors from R1-R4 and place them on R5-R7\nBridge JP1-JP3\nPlace 0R resistors R5-R7\n"
+  (text "For driving addressable LEDs:\nRemove resistors from R1-R4 and place them on R5-R7\nBridge JP1-JP3"
     (at 137.16 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e9b420c-dffe-4c0b-b833-dd389bec0c0d)
   )
-  (text "5V to 12V, 5A input power maximum" (at 52.07 151.13 0)
+  (text "5V to 12V, 5A input current maximum" (at 52.07 151.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc4499ed-d675-4463-a987-f8cd58a9102c)
   )
