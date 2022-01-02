@@ -16,6 +16,6 @@ For driving addressable LEDs:
 Remove 0R resistors from R1-R4 and place them on R5-R7
 Bridge JP1-JP3
 
-![PCB0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/PCB0.PNG)
+![PCB0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/PCB0.jpg)
 ![Enclosure0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/Enclosure0.PNG)
 ![Enclosure1](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/Enclosure1.PNG)
