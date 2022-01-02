@@ -3,7 +3,7 @@ A board to drive WRGB and addressable LEDs using a NodeMCU-32S ESP32 WiFi microc
 
 The goal for this project was to make an ESPHOME and Home Assistant compatible LED strip controller.  
 Price is an important factor as well as ease of use and flexibility in its applications.  
-[ESPHome](https://esphome.io/) is a software tool that can generate code for the ESP32 microcontrollers by using configuration files.  
+[ESPHome](https://esphome.io/) is a software tool that can generate code for the ESP32 microcontrollers by using simple configuration files and [Home Assistant](https://www.home-assistant.io/) has a graphical interface to set up automations.  
 This gives great flexibility with over-the-air updates and easy to understand setup.  
 The ESP32 microcontroller is highly flexible with WiFi and bluetooth along with many GPIOs, ADCs, touch sensors, etc.  
 Development boards for the ESP32 can be gotten for very cheap from various online sellers, pay close attention to the dev board pinouts as they can vary.  
@@ -30,7 +30,7 @@ IO19 - White
 IO18 - Red  
 IO17 - Green  
 IO16 - Blue  
-GND	 - GND  
+GND	 - Unused  
 
 Hardware changes for driving addressable LEDs:  
 Remove 0R resistors from R1-R4.  
