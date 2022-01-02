@@ -3,6 +3,7 @@ A board to drive RGBW and addressable LEDs using a NodeMCU-32S ESP32 WiFi microc
 
 PCB design has been done in KICAD 6.0  
 Mechanical enclosure design done in Autodesk Fusion 360  
+The enclosure needs a heated nut-sert to be put in the lid, this is sized for M3 hardware.
 
 The power input can take 5V to 12V up to 5A.
 
