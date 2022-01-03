@@ -49,8 +49,8 @@ Pinout used for 1 string of SPI addressable LEDs:
 VDD  - Power +ve (ensure your power supply is correct for your LED voltage)  
 IO19 - LED data 0  
 IO18 - LED clock 0  
-IO17 - LED data 0  
-IO16 - LED clock 0  
+IO17 - LED data 1  
+IO16 - LED clock 1  
 GND	 - GND  
 
 ![PCB0](https://github.com/m-c-tech/ESP32-LED-driver-hardware/blob/main/Images/PCB0.jpg)
