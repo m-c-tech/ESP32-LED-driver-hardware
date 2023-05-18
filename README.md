@@ -37,7 +37,6 @@ GND	 - Unused
 Hardware changes for driving addressable LEDs:  
 Remove 0R resistors from R1-R4.  
 Place 0R resistors on R5-R7.  
-Bridge JP1-JP3.  
 
 Pinout for up to 4 strings of one wire addressable LEDs:  
 VDD  - Power +ve (ensure your power supply is correct for your LED voltage)  
